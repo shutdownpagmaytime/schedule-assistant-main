@@ -23,7 +23,7 @@ http.createServer(function (req, res) {
 var bodyParser = require("body-parser"),
 express        = require("express"),
 axios          = require('axios'),
-app            = express.Router();
+app            = express();
 //pythonShell = require('python-shell');
 //router = express.Router();
 // var options = {
